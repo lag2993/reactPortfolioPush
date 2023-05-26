@@ -1,7 +1,7 @@
 {
    "name":"portfolio",
    "version": "0.5.0",
-   "homepage": "https://LGPortfolio.com",
+   "homepage": "https://lag2993.github.io/reactPortfolioPush/",
    "dependencies": {
     "react":"^18.2.0",
     "react-dom": "^18.2.0",
