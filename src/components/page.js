@@ -6,17 +6,19 @@ import Showcase from "./showcase";
 import PageContent from "./pageContent";
 
 
-function Page({ currentPage }) {
+function Page({page, currentPage}) {
     const render = () => {
         switch (currentPage.name) {
-            case 'about Me':
+            case "About":
                 return <About />;
-            case 'showcase':
+            case "Showcase":
                 return <Showcase />
-            case 'contact':
+            case "Contact":
                 return <Contact />
-            case 'resume':
+            case "Resume":
                 return <Resume />
+            default:
+                return null;
 
         }
     };

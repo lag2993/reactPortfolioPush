@@ -8,7 +8,7 @@ function Contact( ){
         message:''
     });
 
-    const [name,email,message] = contactState;
+    const {name,email,message} = contactState;
 
     const handleSubmit = 
     (e)=>{
@@ -22,7 +22,7 @@ function Contact( ){
        <section>
         <form id = "contact-form" onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Your Name:</label>
                 <input type="text" name="name" defaultValue={name}/>
             </div>
             <div>
@@ -30,7 +30,7 @@ function Contact( ){
                 <input type = "email" name="email" defaultValue={email}/>
             </div>
               <div>
-                <label htmlFor="name">Message:</label>
+                <label htmlFor="name">Short Message Describing Reason:</label>
                 <input type="text" name="message" defaultValue={name}/>
             </div>
         </form>

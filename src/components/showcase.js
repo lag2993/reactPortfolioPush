@@ -12,13 +12,13 @@ function Showcase(){
       repolink: "https://github.com/smcgarr13/JoyRide"
     },
     {
-      projName: 'Randy Booth Database Extension',
+      projName: "Randy Booth Database Extension",
       description: 'mySQL App to track production process',
       deploylink: "https://randys-booth-co.herokuapp.com/",
       repolink: "https://github.com/smcgarr13/Randys-Booth-Co"
     },
     {
-      projName: 'Ticket-System',
+      projName: "Ticket-System",
       description: 'GraphQL MERN App for Questions Queries',
       deploylink: "https://ticket-system.herokuapp.com/",
       repolink: "https://github.com/smcgarr13/Ticket-System"

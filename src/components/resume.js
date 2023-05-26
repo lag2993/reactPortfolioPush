@@ -38,7 +38,7 @@ function Resume() {
       <section>
         <h3>Resume</h3>
         <p>
-          Download my resume:{" "}
+          View my resume:{" "}
           <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
             Click Here
           </a>

@@ -8,9 +8,12 @@ function Project({ project }) {
                 <h3>
                     <a href={deploylink}>
                         {projName}
-                        <a href={repolink}></a>
                     </a>
                 </h3>
+                <h2>
+                <a href={repolink}>Repo</a>
+                </h2>
+                
                 <p>{description}</p>
 
             </div>
